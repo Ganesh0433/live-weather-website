@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>wheather website</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2></h2>
+        <input type="search" id="searchinput" placeholder="Search Location">
+        <button onclick="store()"><img src="search.png"></button>
+    </div>
+    <div class ="container">
+    <div class="vna" type="hide"></div>
+    
+    <div class="container2">
+            <h3 id="location"></h3>
+            <select name="arrow" id="arrow"></select>
+
+        <div class="content">
+            <div class="navcontent">
+            
+                <h3 id="date"></h3>
+    
+            </div>
+            <div class="temp">
+                <div class="number">
+                    <h1 id="celsius"></h1>
+                    <div class="degree"></div>
+                    <div class="c"><h4>c</h3></div>
+                    
+                </div>
+                <div class="tempimg">
+                    <img id="sky" src=`${imag}` alt="">
+                </div>
+            </div>
+            <div class="whether">
+                <h3 id="climate"></h3>
+            </div>
+            <div class="footerdata">
+                <div class="horizontal1">
+                    <div class="wind">
+                        <img src="wind1.png">
+                        <h3>Wind</h3>
+                    </div>
+                    <div class="vline">|</div>
+                    <div class="speed">
+                            <h3 id="wind_speed"></h3>
+                            
+                    </div>
+                </div>
+                <div class="horizontal2">
+                    <div class="humidity">
+                        <img src="humidity.png">
+
+                        <h3>Hum</h3>
+                        
+                    </div>
+                    <div class="vline">|</div>
+                    <div class="percentage">
+                        <h3 id="hum"></h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+    </div>
+
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
